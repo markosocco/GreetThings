@@ -113,6 +113,26 @@ public class EventDetails extends AppCompatActivity {
                 }
             }
         });
+
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i = new Intent();
+
+                i.setClass(getBaseContext(), Homescreen.class);
+
+                startActivityForResult(i, 6);
+            }
+        });
+
+        btnDelete.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view)
+            {
+                DeleteDialog dd = new DeleteDialog();
+                dd.show(getSupportFragmentManager(), "");
+            }
+        });
     }
 
     private void setDateField(){

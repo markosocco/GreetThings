@@ -21,10 +21,6 @@ import java.util.List;
 
 import static android.app.Activity.RESULT_OK;
 
-/**
- * Created by Ian Eugenio on 13/11/2017.
- */
-
 public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHolder>{
 
     public LayoutInflater inflater;
@@ -54,7 +50,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHo
         Contact current = data.get(position);
 
         if (position % 2 == 1)
-            holder.itemView.setBackgroundColor(Color.BLACK);
+            holder.itemView.setBackgroundColor(Color.WHITE);
         else
             holder.itemView.setBackgroundColor(Color.GRAY);
 

@@ -1,9 +1,5 @@
 package ph.edu.dlsu.namiarko.greetthings;
 
-/**
- * Created by Ian Eugenio on 13/11/2017.
- */
-
 public class Contact {
     private String name;
     private String number;

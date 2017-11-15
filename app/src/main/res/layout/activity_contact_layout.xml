@@ -8,14 +8,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-    <!--
-        <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/checkbox"/>
--->
         <LinearLayout
-            android:layout_width="395dp"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/row"
@@ -26,7 +20,6 @@
                 android:layout_height="wrap_content"
                 android:text="CONTACT NAME"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
                 android:id="@+id/name_txt" />
 
             <TextView
@@ -34,7 +27,6 @@
                 android:layout_height="wrap_content"
                 android:text="CONTACT NUMBER"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
                 android:id="@+id/number_txt"/>
 
         </LinearLayout>

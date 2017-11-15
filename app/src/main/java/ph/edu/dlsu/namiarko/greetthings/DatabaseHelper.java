@@ -6,10 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by namihihii on 11/10/2017 AD.
- */
-
 public class DatabaseHelper extends  SQLiteOpenHelper{
 
     public static final String SCHEMA = "events";

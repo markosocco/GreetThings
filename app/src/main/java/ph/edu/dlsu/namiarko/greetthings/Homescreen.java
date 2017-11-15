@@ -57,13 +57,13 @@ public class Homescreen extends AppCompatActivity {
         rvEvents.setAdapter(eventAdapter);
         rvEvents.setLayoutManager(new LinearLayoutManager(getBaseContext(), LinearLayoutManager.VERTICAL, false));
 
-        fabSend = (FloatingActionButton) findViewById(R.id.fab_send);
-        fabSend.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                sendSMS();
-            }
-        });
+//        fabSend = (FloatingActionButton) findViewById(R.id.fab_send);
+//        fabSend.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                sendSMS();
+//            }
+//        });
 
     }
 

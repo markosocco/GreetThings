@@ -1,9 +1,5 @@
 package ph.edu.dlsu.namiarko.greetthings;
 
-/**
- * Created by namihihii on 11/10/2017 AD.
- */
-
 import android.content.Context;
 import android.database.Cursor;
 import android.database.DataSetObserver;
