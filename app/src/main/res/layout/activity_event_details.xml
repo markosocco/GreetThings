@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+ >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Date"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:inputType="none"
+            android:hint="Date"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/et_date" />
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/ic_chevron_right_black_40dp"-->
+            <!--android:id="@+id/ibtn_date"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Time"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:inputType="none"
+            android:hint="Time"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/et_time"/>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/ic_chevron_right_black_40dp"-->
+            <!--android:id="@+id/ibtn_time"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Event Name"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:inputType="none"
+            android:hint="Event Title"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/et_title"/>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/ic_chevron_right_black_40dp"-->
+            <!--android:id="@+id/ibtn_name"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_marginBottom="8dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Recipient"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <!-- I think dapat button to or something hahahahha
+        tapos pag on click it will show the contacts/>-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:inputType="none"
+            android:hint="Recipient"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/et_recipient"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="none"
+            android:hint="Number"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/et_number"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_weight="1"/>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/ic_chevron_right_black_40dp"-->
+            <!--android:id="@+id/ibtn_recipient"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Message"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:gravity="top"
+            android:hint="Message..."
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/et_message"/>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/ic_chevron_right_black_40dp"-->
+            <!--android:id="@+id/ibtn_message"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Repeat and Frequency"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"/>-->
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:entries="@array/repeatTypeList"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:id="@+id/spnr_repeat">
+        </Spinner>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/ic_chevron_right_black_40dp"-->
+            <!--android:id="@+id/ibtn_repeat"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:id="@+id/btn_cancel" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="SAVE"
+            android:id="@+id/btn_save"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE EVENT"
+        android:id="@+id/btn_delete"/>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/namihihii/Desktop/MOBIDEV/GreetThings/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5b7a1633b4ed28b37873e0d96200c9afce0ed8f2">
+        <dex dex="/Users/namihihii/Desktop/MOBIDEV/GreetThings/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0950632bbdc95249dd3f3a77b40f5f73ebd6d93b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/namihihii/Desktop/MOBIDEV/GreetThings/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/namihihii/Desktop/MOBIDEV/GreetThings/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_fd7b878b0a4da7a9df3547f53140889a4a6ce210/classes.dex" />
+    </item>
+
+</items>

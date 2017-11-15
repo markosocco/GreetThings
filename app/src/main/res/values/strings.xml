@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Greet Things</string>
+    <string name="title_activity_home">Home</string>
+    <string name="repeat1">Repeat and Frequency (None)</string>
+    <string name="repeat2">Daily</string>
+    <string name="repeat3">Monthly</string>
+    <string name="repeat4">Yearly</string>
+</resources>
